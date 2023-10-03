@@ -1,0 +1,168 @@
+@media (max-width: 500px){
+    #nav{
+        padding: 15px;
+    }
+    #nav #nav-part1{
+        height: 67px;
+    }
+    #nav #nav-part1 svg{
+        width: 80px;
+        height: 67px;
+    }
+    #nav #nav-part1 #logo2{
+        margin-left: -20px;
+        height: 40px;
+        top: 40px;
+    }
+    #nav #nav-part2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+    }
+    #nav #nav-part2 #links{
+        padding: 10px;
+        display: none;
+    }
+    #nav #nav-part2 #links a{
+        font-family: gilroy;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #333;
+        font-weight: 400;
+        font-size: 12px;
+        margin: 0 3vw;
+    }
+    #nav #nav-part2 #icons{
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #f7f7f7;
+    }
+    #nav #nav-part2 #icons i{
+        font-size: 17px;
+        margin: 0 2vw;
+        font-weight: 100;
+    }
+    #page1{
+        min-height: 60vh;
+        padding: 0 2.5vw;
+        padding-top: 15vh;
+        /* cdscs */
+    }
+    #page1 h1{
+        font-size: 16vw;
+        letter-spacing: -4px;
+    }
+    #video-container{
+        min-height: 25vh;
+        margin-top: 3vw;
+    }
+    #video-container #play{
+        padding: 32px 20px;
+        font-size: 16px;
+        position: absolute;
+        left: calc(50% - 50px);
+        top: calc(50% - 50px);
+        opacity: 1;
+        scale: 1;
+    }
+    #page2{
+        min-height: 60vh;
+        padding: 5vw 2.5vw;
+        flex-direction: column;
+    }
+    #page2 .elem{
+        min-height: 60vh;
+        width: 100%;
+        margin-bottom: 3vw;
+    }
+    #page2 .elem img{
+        scale: 1;
+    }
+    #page2 .elem .dets{
+        /* height: 5vw; */
+        width: 80%;
+        position: absolute;
+        border-radius: 5vw;
+        z-index: 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #page2 .elem .dets #item1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 3.4vw;
+        font-family: gilroy;
+        padding: 1.5vw;
+        cursor: pointer;
+        padding-top: 1rem;
+    }
+    #page2 .elem .dets #moreItem1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        padding: 1.5vw;
+        padding-top: 0;
+    }
+    #page2 .elem .dets #moreItem1 .item-box img{
+        height: 40vw;
+        cursor: pointer;
+    }
+    #page2 .elem .dets #moreItem1 .item-box p{
+        font-size: 3vw;
+        font-family: gilroy;
+        text-align: center;
+        text-transform: uppercase;
+        cursor: pointer;
+        padding-bottom: 1rem;
+    }
+    #page2 .elem .dets:hover #moreItem1{
+        display: flex;
+    }
+    #footer #footerPart1{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        margin-top: 2vw;
+        height: 180px;
+    }
+    #footer #footerPart1 .footerMenu p{
+        /* font-size: 1vw; */
+        font-size: 12px;
+        font-weight: 100;
+        margin-bottom: 6px;
+    }
+    #footer #footerPart1 .footerMenu .heading{
+        color: grey;
+        /* font-size: 0.9vw; */
+        font-size: 12px;
+        margin-bottom: 24px;
+    }
+    #footer #footerPart1 #footerMenu2 p{
+        text-align: end;
+    }
+    #footer #footerPart1 #footerImg svg{
+        width: 20vw;
+    }
+    #footer #footerPart1 #footerImg div p{
+        font-size: 10px;
+        display: none;
+    }
+    #footer #footerPart2{
+        width: 90%;
+        margin: auto;
+    }
+    #footer #footerPart2 p{
+        /* font-size: 1.2vw; */
+        font-size: 8px;
+        font-family: gilroy;
+        padding-bottom: 2vw;
+        text-align: center;
+    }
+    
+}
